@@ -1,11 +1,11 @@
 # sars-cov-2.pl
-Skrypt do wyciągania statystyk ze strony Ministerstwa Zdrowia:
+Skrypt do wyciągania statystyk zakażeń na SARS-CoV-2 ze strony Ministerstwa Zdrowia:
 
 https://www.gov.pl/web/koronawirus/wykaz-zarazen-koronawirusem-sars-cov-2
 
 (wyciąganie ze strony pokazwirusa.pl zostało zaniechane - strona posiada opóźnienie w stosunku do danych z Ministerstwa)
 
-Sposób użycia:
+Sposób użycia (zalecane uruchomienie cykliczne, np. co 5 minut, przy pomocy Crontab'a):
 
 ./gov.sh
 
